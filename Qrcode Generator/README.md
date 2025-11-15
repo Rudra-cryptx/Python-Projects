@@ -31,6 +31,46 @@ The QR code is then saved as a **PNG image** in the same directory.
 
 ---
 
+🧪 Example Usage
+Enter text or URL to generate QR code: https://github.com/rudra
+Enter the file name: github_qr
+QR code saved as github_qr.png
+
+
+📦 Requirements
+pip install qrcode[pil]
+
+
+🔧 Understanding the Key Functions
+✔ qrcode.QRCode()
+
+Creates a QRCode object with parameters like version, box size, and border.
+
+✔ add_data(data)
+
+Adds your text or URL into the QR code.
+
+✔ make(fit=True)
+
+Automatically adjusts the QR code to fit the given data.
+
+✔ make_image()
+
+Generates the final QR image.
+
+
+🔗 Important Tips for URL QR Codes
+
+To ensure QR scanners correctly open your link:
+
+✔ Correct:https://www.google.com
+
+❌ Incorrect:
+www.google.com
+google.com
+
+---
+
 ## 📂 Full Source Code
 
 ```python
