@@ -48,8 +48,9 @@ image.save(f"{filename}.png")
 
 print(f"QR code saved as {filename}.png")
 
+---
 
-🧪 Example Usage
+## 🧪 Example Usage
 Enter text or URL to generate QR code: https://github.com/rudra
 Enter the file name: Rudra git hub QR code
 QR code saved as Rudra git hub QR code.png
