@@ -56,5 +56,5 @@ print("Typing speed: " , cps , "Character/sec")
 print("Typing speed: " , wpm , "Words/min")
 print("No. of ERRORS: " , Mistaks(test, user_text))
 print("Accuracy: ", accuracy(test, user_text))
-
+print("--------------------------------------------------------------------------------")
 
